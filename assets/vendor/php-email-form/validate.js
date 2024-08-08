@@ -125,7 +125,7 @@
 
   function php_email_form_submit(this_form, action, data) {
     $.ajax({
-      type: "PUT",
+      type: "DELETE",
       url: action,
       data: data,
       timeout: 40000
