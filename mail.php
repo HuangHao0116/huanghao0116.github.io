@@ -9,7 +9,7 @@ require './PHPMailer/src/SMTP.php';
   $email =$_POST['email'];
   $subject =$_POST['subject'];
   $message =$_POST['message'];
-
+var_dump('ddd');exit;
   $mailheader = "From:".$name."<".$email.">\r\n";
 //邮箱服务器 账号
  $email_fa = "312050347@qq.com";
